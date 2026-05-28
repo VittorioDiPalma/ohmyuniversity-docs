@@ -33,7 +33,7 @@ Design Goals translate system requirements into concrete, measurable objectives 
 | Priority | Goal | Metric | Rationale |
 |----------|------|--------|-----------|
 | **P1** | **Data Integrity** | 100% correspondence with CINECA records; zero calculation errors | Students trust system with academic records; errors impact future opportunities (Master's eligibility, graduation date) |
-| **P1** | **Performance** | Sync from CINECA in < 2.0 seconds; 3-tap access for expert users | Expert users expect instant access; reduces friction vs current fragmented portals |
+| **P1** | **Performance** | Sync from CINECA in < 2.0 seconds (p99); 3-tap access for expert users | Expert users expect instant access; reduces friction vs current fragmented portals |
 | **P1** | **Reliability** | 99.9% monthly uptime; graceful fallback when external systems unavailable | Students access platform for critical decisions (exam booking, Master's planning); unexpected downtime causes lost registrations |
 | **P1** | **Usability** | New users complete classroom booking in < 60 seconds without documentation; intuitive interface | Platform must reduce cognitive load; complexity drives users back to fragmented portals |
 | **P2** | **Scalability** | Horizontal scaling of individual microservices without system-wide re-deployment | Each service scales independently based on demand (Logistics overloaded ≠ Career Service scales) |
